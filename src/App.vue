@@ -1,11 +1,17 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
+<script>
+export default {
+  name : 'App',
+  components: {
+    SignUp,
+  },
+};
+import SignUp from './components/SignUp.vue';
+
 </script>
 
 <template>
   <div>
-    
-    <HelloWorld />
+    <SignUp/>
   </div>
   
 </template>
